@@ -19,6 +19,31 @@ This repository provides a comprehensive list of resources and tools for conduct
 
 This list is continuously being developed and is built on OSINT gathering tools to scrape the clear web and deep web for information. This list was designed to assist cyber professionals and ethical hackers for the AustCyber Canberra Innovation Node that partnered with the Australian Federal Police, the National Missing Persons Coordination Centre, and Trace Labs to conduct a missing persons event. The purpose of this list is to make it easier to find OSINT on Australians who have gone missing. This list can also be used for many other purposes beyond OSINT.
 
+### 🧠 NEW: Adaptive Reasoning System
+
+This repository now includes an **Adaptive Reasoning System** - an intelligent problem-solving framework that automatically selects the most reliable reasoning structure for complex OSINT analysis and investigations. The system supports four reasoning topologies (chain, tree, graph, reverse) and can automatically adapt to problem complexity.
+
+**Key Features:**
+- Automatic entity and constraint extraction
+- Intelligent topology selection
+- Contradiction detection and validation
+- Confidence scoring for solutions
+- Command-line interface for easy use
+
+**Quick Start:**
+```bash
+# Run example problems
+python3 adaptive_reasoning.py
+
+# Use CLI for your own problems
+python3 reasoning_cli.py -p "Your problem statement here"
+
+# Interactive mode
+python3 reasoning_cli.py -i
+```
+
+📖 [Read the full documentation](README_ADAPTIVE_REASONING.md)
+
 ## Contributing
 
 Please read the [CONTRIBUTING.md](https://github.com/DFW1N/DFW1N-OSINT/blob/master/CONTRIBUTING.md) file for information if you wish to contribute to this repository.

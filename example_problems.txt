@@ -1,0 +1,34 @@
+# Example Problems for Adaptive Reasoning System
+
+This file contains example problems that demonstrate the different reasoning topologies.
+Problems should be separated by blank lines.
+
+## Simple Linear Problem (Chain Topology)
+Given that Alice has 5 apples and Bob gives her 3 more apples. If each apple costs 2 dollars, find the total value of Alice's apples.
+
+## Network Problem (Graph Topology)
+In a social network, Alice knows Bob and Carol. Bob knows David and Emma. Carol knows Frank. Emma knows George and Henry. David knows Ian. If information spreads through one connection per time step, determine how many time steps it takes for information from Alice to reach Ian.
+
+## Goal-Oriented Problem (Reverse Topology)
+A startup company needs to achieve a revenue of $1 million to break even. They currently have $400,000 in revenue. Their monthly growth rate must be at least 15% to satisfy investors. Find the minimum number of months needed to reach the break-even point.
+
+## Hierarchical Problem (Tree Topology)
+A software project needs to be completed with the following constraints: The UI must be designed before implementation. The database must be set up before the backend. The backend must be completed before the frontend. The testing phase requires both frontend and backend to be complete. The deployment requires successful testing. Determine the optimal project structure and critical path.
+
+## Complex Constraint Problem (Graph/Tree Topology)
+Five people (Alice, Bob, Carol, David, Emma) need to be assigned to three teams (Red, Blue, Green). Constraints: Alice and Bob cannot be on the same team. Carol must be on the Red team. David must work with either Alice or Emma. Each team must have at least one person. The Blue team cannot have more than two people. Find all valid team assignments.
+
+## Logical Reasoning Problem (Chain/Reverse Topology)
+If it rains, the ground gets wet. If the ground is wet, people use umbrellas. If people use umbrellas, umbrella sales increase. The ground is observed to be wet. Determine what can be concluded about umbrella sales and whether it rained.
+
+## Optimization Problem (Tree/Graph Topology)
+A delivery truck needs to visit five locations: A, B, C, D, and E, starting from depot X. Distances: X-A=10km, X-B=15km, X-C=8km, A-D=12km, B-D=7km, C-E=9km, D-E=6km, B-C=11km. The truck must return to X. The truck can carry packages for 3 locations at a time. Find an efficient route.
+
+## Analytical Problem (Reverse Topology)
+A scientist observes that plants in greenhouse A grow 20% faster than those in greenhouse B. Both greenhouses have the same plants, soil, and watering schedule. Greenhouse A is located on the east side of the building, while B is on the west side. Determine the likely cause and what additional information would confirm the hypothesis.
+
+## Mathematical Reasoning (Chain Topology)
+Given: x + y = 10, x - y = 4. Find the values of x and y. Then determine the value of x² + y².
+
+## Decision Tree Problem (Tree Topology)
+A bank needs to decide whether to approve a loan application. Criteria: Credit score must be above 650. Annual income must exceed $40,000. Debt-to-income ratio must be below 40%. If credit score is above 750, income requirement is waived. If debt-to-income is below 25%, credit score requirement is reduced to 600. Applicant has: credit score 680, income $38,000, debt-to-income 30%. Should the loan be approved?
