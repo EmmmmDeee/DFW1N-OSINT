@@ -127,8 +127,10 @@ We would also like to thank <img src="https://buungroup.com/logo/logo.svg" width
   - [Email Data Dumps](#-email-data-dumps)
   - [Geolocation Tools & Sites](#-geolocation-tools--sites)
   - [Automated OSINT Tools](#-automated-osint-tools)
+  - [AI-Powered OSINT Tools](#-ai-powered-osint-tools)
   - [Image Forensics](#-image-forensics)
   - [Mobile Forensics](#-mobile-forensics)
+  - [Cryptocurrency & Blockchain Investigation](#-cryptocurrency--blockchain-investigation)
   - [Barcode Readers & Generators](#-barcode-readers--generators)
   - [Report Generators](#-report-generators)
 - [Australian Specific Resources](#-australian-specific-resources)
@@ -177,6 +179,9 @@ Below are the most popular methods to start conducting OSINT investigations.
 
 - <img src="images/icons/archlinux.png" width="16"/> [Trace Labs OSINT VM](https://www.tracelabs.org/initiatives/osint-vm) - _This VM is set up for investigators and ethical hackers for OSINT._
 - <img src="images/icons/archlinux.png" width="16"/> [Kali Linux](https://www.kali.org/downloads/) - _Kali Linux Operating System is widely used by Offensive Security Teams, Hackers and Ethical Hackers._
+- [CSI Linux](https://csilinux.com/) - _Digital forensics and OSINT Linux distribution designed for investigators._
+- [Tsurugi Linux](https://tsurugi-linux.org/) - _DFIR (Digital Forensics and Incident Response) Linux distribution with OSINT capabilities._
+- [OSINT-VM](https://github.com/TH3xACE/OSINT_Collection) - _Collection of OSINT tools and scripts for virtual machine setup._
 
 #### Android Emulators
 
@@ -186,6 +191,7 @@ Below are the most popular methods to start conducting OSINT investigations.
 - <img src="images/icons/android.png" width="16"/> [Genymotion](https://www.genymotion.com/fun-zone/) - _Widely used by developers and has a free version for personal use._
 - <img src="images/icons/android.png" width="16"/> [ARChon](https://github.com/vladikoff/chromeos-apk/blob/master/archon.md) - _Lets you run an unlimited number of Android APKs created with `chromeos-apk` on Chrome OS and across any desktop platform that supports Chrome._
 - <img src="images/icons/android.png" width="16"/> [Bliss](https://forum.xda-developers.com/bliss-roms/bliss-roms-development/x86-bliss-x86-pc-s-t3534657) - _Bliss is a little different; it works as an Android emulator for PC via virtual machine._
+- <img src="images/icons/android.png" width="16"/> [NoxPlayer](https://www.bignox.com/) - _Lightweight Android emulator optimized for gaming but useful for OSINT on mobile apps._
 
 ### [↑](#-table-of-contents) Virtual Machines
 
@@ -253,22 +259,32 @@ This list will provide you with the largest email providers to assist you in eit
 - [Facebook Social Monitoring](https://www.fanpagekarma.com/social-monitoring) - _People are talking about you, your brand and your industry all around the social web. Fanpage Karma Social Monitoring shows you what they are talking about._
 - [ExtractFace](https://sourceforge.net/projects/extractface/) - _Investigators, researchers or other analysts often have to get local copies of Facebook data._
 - [Facebook Sleep Status](https://github.com/sqren/fb-sleep-stats) - _A small tool to show the potential privacy implications modern social media have. By tracking online/offline status of people on Facebook, it is possible to get an accurate image of their sleep pattern._
+- [Graph.tips](https://graph.tips/) - _Advanced Facebook Graph Search tool for finding hidden connections and publicly available data._
+- [Who Posted What?](https://whopostedwhat.com/) - _Search Facebook posts by keyword, date range, and location without logging in._
+- [OSINT Combine](https://www.osintcombine.com/facebook-intersect) - _Find mutual friends between two Facebook profiles for connection analysis._
 
-#### Twitter Tools
+#### Twitter/X Tools
 
-- [Twitter Search Basics](http://search.twitter.com)
-- [Twitter Search Advanced](https://twitter.com/search-advanced?lang=en)
+- [Twitter/X Search Basics](https://twitter.com/search-advanced) - _Use advanced search operators to find specific tweets and accounts._
+- [Twitter/X Search Advanced](https://twitter.com/search-advanced?lang=en)
 - [Obtain Twitter IDs](http://gettwitterid.com)
 - [Audit Twitter Followers](https://www.twitteraudit.com) - _Find out how many of your targets followers are real. Are they buying twitter followers?_
 - [Find Twitter First Follower](https://socialrank.com/firstfollower) - _Who was your targets first follower, or maybe yours?_
 - [Hashtagify](https://hashtagify.me/hashtag/tbt) - _Monitor your performance, exploit the best hashtag suggestions and identify Twitter influencers all in one place._
 - [Foller](https://foller.me/) - _Twitter analytics application that gives you rich insights about any public Twitter profile. Gathers near real-time data about topics, mentions, hashtags, followers, location and more!_
+- [TweetDeck](https://tweetdeck.twitter.com/) - _Monitor multiple Twitter feeds, searches, and accounts in real-time columns._
+- [Twint](https://github.com/twintproject/twint) - _Advanced Twitter scraping tool that doesn't use Twitter API, allowing unlimited searches._
+- [Social Bearing](https://socialbearing.com/) - _Analyze Twitter accounts, hashtags, and find tweets with advanced filters including sentiment analysis._
+- [Twitonomy](https://www.twitonomy.com/) - _Detailed Twitter analytics including tweet times, conversation threads, and retweet analysis._
 
 #### LinkedIn Tools
 
 - [LinkedIn Automation Email Retrieval](https://github.com/leapsecurity/InSpy) - _Automation of domain and email retrieval in addition to randomized headers and xml output support through LinkedIn._
 - [LinkedIn Recon Tool](https://github.com/vysecurity/LinkedInt) - _Providing you with Linkedin Intelligence._
 - [ScrapedIn](https://github.com/dchrastil/ScrapedIn) - _Tool assists in performing reconnaissance using the LinkedIn.com website/API. Provide a search string just as you would on the original website and let ScrapedIn do all the dirty work._
+- [CrossLinked](https://github.com/m8r0wn/crosslinked) - _LinkedIn enumeration tool to extract valid employee names from organization._
+- [LinkedIn2Username](https://github.com/initstring/linkedin2username) - _Generate username lists from LinkedIn for penetration testing._
+- [PhantomBuster LinkedIn](https://phantombuster.com/automations/linkedin) - _Automate LinkedIn data extraction including profile scraping and connection export._
 
 ### [↑](#-table-of-contents) Australian Dating Networks
 
@@ -292,6 +308,10 @@ Some links that scan through sites to find where your target is registered:
 - [User Search](http://www.usersearch.org) - _Searches for usernames on social media sites._
 - [Xbox Username Checker](https://www.xboxgamertag.com/) - _Search for your target's gamer tag on xbox when was the last time they were online?_
 - [Check Usernames](www.checkusernames.com) - _Check the use of your brand or username on 160 Social Networks._
+- [Namechk](https://namechk.com/) - _Check username and domain name availability across multiple platforms._
+- [WhatsMyName](https://whatsmyname.app/) - _Enumerate usernames across many websites with a unified interface._
+- [Instant Username Search](https://instantusername.com/) - _Check username availability across multiple platforms instantly._
+- [NameCheckr](https://www.namecheckr.com/) - _Check domain and username availability across multiple social networks._
 
 ### [↑](#-table-of-contents) Person Investigations
 
@@ -373,6 +393,11 @@ Assuming you know or have obtained your target's email address, you can check if
 - [DeHashed](https://www.dehashed.com/) - _Display usernames & passwords from an account that has been compromised in a data breach._
 - [Citadel](http://citadel.pw) - _Display usernames & passwords from an account that has been compromised in a data breach._
 - [MD5 Cracking and Hashing](https://md5decrypt.net/en/) - _Crack MD5 Hashes. This website also provides many other hash cracking tools such as SHA-512 decryption, SHA-256, Morse Code Decoding etc._
+- [LeakCheck](https://leakcheck.io/) - _Search across multiple data breaches with detailed breach information and credentials._
+- [IntelligenceX](https://intelx.io/) - _Search engine for data leaks, breaches, and historical records including email addresses._
+- [Snusbase](https://snusbase.com/) - _Database search engine for leaked databases and credentials (requires subscription)._
+- [GhostProject](https://ghostproject.fr/) - _Database of leaked credentials searchable by email or username._
+- [Breach Directory](https://breachdirectory.org/) - _Check if your information was exposed in a data breach._
 
 ## [↑](#-table-of-contents) OSINT Tools
 
@@ -429,6 +454,12 @@ List of big known search engines used to browse the internet.
 - [iZito](http://www.izito.com)
 - [All-in-One](http://all-io.net)
 - [Carrot2](http://search.carrot2.org) - _Carrot2 organizes your search results into topics. With an instant overview of what's available, you will quickly find what you're looking for._
+- [Brave Search](https://search.brave.com/) - _Independent, privacy-focused search engine with its own index._
+- [Startpage](https://www.startpage.com/) - _Private search engine that delivers Google results without tracking._
+- [Qwant](https://www.qwant.com/) - _European privacy-focused search engine._
+- [Ecosia](https://www.ecosia.org/) - _Search engine that plants trees with ad revenue._
+- [You.com](https://you.com/) - _AI-powered search engine with personalized results and privacy focus._
+- [Perplexity AI](https://www.perplexity.ai/) - _AI-powered answer engine that provides direct answers with citations._
 
 #### IoT Search Engines
 
@@ -436,6 +467,8 @@ List of big known search engines used to browse the internet.
 - [ZoomEye](https://www.zoomeye.org/) - _Search engine for Cyberspace Searches._
 - [Censys](https://censys.io/) - _Get a current view of all of your organization's assets so you can proactively prevent targeted attacks and investigate suspicious activity._
 - [FOFA Pro](https://fofa.so/) - _FOFA is a cyberspace search engine developed by BAIMAOHUI._
+- [Criminal IP](https://www.criminalip.io/) - _Cyber Threat Intelligence search engine for IoT devices and vulnerabilities._
+- [Netlas](https://netlas.io/) - _Internet asset discovery and attack surface management._
 
 ### [↑](#-table-of-contents) Best Browser Add-ons for OSINT
 
@@ -452,6 +485,9 @@ List of big known search engines used to browse the internet.
 - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - _Finally, an efficient blocker. Easy on CPU and memory._
 - [Image Search Options](https://addons.mozilla.org/en-US/firefox/addon/image-search-options/) - _Image Search Options provides a set of highly customizable reverse image search context menu options._
 - [Open Source Intelligence Browser Extension](https://addons.mozilla.org/en-US/firefox/addon/osint-browser-extension/) - _A Browser Extension to simplify the process of Open Source Intelligence (OSINT) Investigations._
+- [Wayback Machine](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/) - _Welcome to the official Wayback Machine extension for viewing archived web pages._
+- [Flagfox](https://addons.mozilla.org/en-US/firefox/addon/flagfox/) - _Displays a flag icon indicating the current webserver's physical location._
+- [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/) - _Reverse image search using multiple search engines with one click._
 
 #### Google Chrome
 
@@ -462,6 +498,10 @@ List of big known search engines used to browse the internet.
 - [Treeverse](https://chrome.google.com/webstore/detail/treeverse/aahmjdadniahaicebomlagekkcnlcila?hl=en-US) - _It takes a conversation on Twitter and breaks it down into a hierarchical tree and tells you who is talking to who and where the connections are._
 - [RevEye](https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf?hl=en) - _Reverse Image Search._
 - [LinkedIn Sales Navigator](https://chrome.google.com/webstore/detail/linkedin-sales-navigator/hihakjfhbmlmjdnnhegiciffjplmdhin) - _Engage with Sales Navigator insights where you're already communicating with prospects and customers._
+- [Wayback Machine](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak) - _View archived versions of web pages on the Internet Archive's Wayback Machine._
+- [Mitaka](https://chrome.google.com/webstore/detail/mitaka/bfjbejmeoibbdpfdbmbacmefcbannnbg) - _Search for IP addresses, domains, URLs, hashes, and more from any web page with one click._
+- [Sputnik](https://chrome.google.com/webstore/detail/sputnik/manapjdamopgbpimgojkccikaabhmocd) - _Chrome extension for OSINT, reverse image search and link analysis._
+- [OSINT Toolkit](https://chrome.google.com/webstore/detail/osint-toolkit/hjoidjllojnbbphllghaafmgefhjjbfl) - _Quick access to various OSINT tools and searches from your browser._
 
 ### [↑](#-table-of-contents) Internet Browsers
 
@@ -574,11 +614,16 @@ These programs and tools can be used for OSINT Research to try get a understandi
 - [Google Earth Pro](https://www.google.com/earth/versions/#download-pro)
 - [Creepy](http://www.geocreepy.com/) - _A Geolocation OSINT Tool. Offers geolocation information gathering through social networking platforms._
 - [Echosec](https://www.echosec.net/) - _However this is a alternate for data discovery for threat intelligence it does cost $500 a month._
+- [GeoSpy](https://geospy.ai/) - _AI-powered geolocation tool to identify photo locations using machine learning._
+- [SunCalc](https://www.suncalc.org/) - _Calculate sun position, sunlight phases, and shadow length for any location and time._
+- [Chronolocation](https://github.com/paulsec/chronolocation) - _Determine when a photo was taken based on shadows and sun position._
+- [What3Words](https://what3words.com/) - _Find and share precise locations using three-word addresses covering the entire globe._
 
 #### Sites
 
 - [Open Street Map](https://www.openstreetmap.org/)
 - [Google Earth](https://www.google.com/earth/)
+- [Google Maps](https://www.google.com/maps)
 - [Maps Me (Mobile Offline Maps)](https://maps.me/)
 - [NASA WorldWind](https://worldwind.arc.nasa.gov/) - _WorldWind is an open source virtual globe API._
 - [City Mapper](https://citymapper.com/?lang=en) - _Find out what services, shops, locations etc was from the area to find details on the person._
@@ -589,6 +634,9 @@ These programs and tools can be used for OSINT Research to try get a understandi
 - [Building Locator](https://www.emporis.com/buildings/map?action=%2Fbuildings#c=-28.524107,134.985543&z=4) - _Might be useful to determine what building is on the picture._
 - [IP Location](https://www.iplocation.net/) - _Where is Geolocation of an IP Address?_
 - [EXIF Data Viewer](http://exifdata.com/) - _Storing information on the image such as shutter speed, exposure compensation, F number, what metering system was used, if a flash was used, ISO number, date and time the image was taken._
+- [GeoGuessr](https://www.geoguessr.com/) - _Training tool for geolocation skills using Google Street View._
+- [Sentinel Hub](https://www.sentinel-hub.com/) - _Access to satellite imagery from multiple sources for geospatial analysis._
+- [Zoom Earth](https://zoom.earth/) - _Live satellite images and weather data visualization._
 
 ### [↑](#-table-of-contents) Automated OSINT Tools
 
@@ -604,6 +652,12 @@ These programs and tools can be used for OSINT Research to try get a understandi
 - [Metagoofil](https://github.com/laramies/metagoofil) - _Metagoofil is an information gathering tool designed for extracting metadata of public documents (pdf,doc,xls,ppt,docx,pptx,xlsx) belonging to a target company._
 - [FOCA](https://github.com/ElevenPaths/FOCA) - _FOCA is a tool used mainly to find metadata and hidden information in the documents it scans. These documents may be on web pages, and can be downloaded and analysed with FOCA._
 - [Sherlock](https://github.com/sherlock-project/sherlock) - _Hunt down social media accounts by username across social networks._
+- [Maltego](https://www.maltego.com/) - _Powerful data mining tool that renders graphs for link analysis and data visualization for investigative tasks._
+- [OSRFramework](https://github.com/i3visio/osrframework) - _Suite of tools for username checking, DNS lookups, and information leaks research across multiple platforms._
+- [Maigret](https://github.com/soxoj/maigret) - _Collect a dossier on a person by username from thousands of sites, successor to Sherlock with more features._
+- [Hunchly](https://www.hunch.ly/) - _Capture, organize, annotate and export web pages automatically during investigations (commercial tool)._
+- [Mitaka](https://github.com/ninoseki/mitaka) - _Browser extension for OSINT search with one click from selected text._
+- [OSINT Framework](https://osintframework.com/) - _Focused on gathering information from free tools or resources with a tree-based mindmap structure._
 
   [![alt tag](https://github.com/DFW1N/DFW1N-OSINT/blob/master/DFW1N%20Sherlock%20Example.gif)](https://github.com/sherlock-project/sherlock)
 
@@ -616,6 +670,25 @@ These programs and tools can be used for OSINT Research to try get a understandi
 - [Image Identifier](https://www.imageidentify.com/) - _Image Identification Project._
 - [LunaPic](https://www130.lunapic.com/editor/?action=decrypt) - _Decrypt your image with a password or phrase._
 - [Decrypt Image Online](http://decrypt.imageonline.co/index.php) - _Image decryption tool help to restore your encrypted image to its original pixels._
+- [Google Reverse Image Search](https://images.google.com/) - _Find similar images and original sources using Google's reverse image search._
+- [TinEye](https://tineye.com/) - _Reverse image search engine to find where an image appears online._
+- [Yandex Images](https://yandex.com/images/) - _Powerful reverse image search, often finds results Google misses._
+- [FotoForensics](https://fotoforensics.com/) - _Analyze images for signs of manipulation using Error Level Analysis (ELA)._
+- [InVID/WeVerify](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/) - _Video and image verification tool for journalists and fact-checkers._
+- [Jeffrey's Image Metadata Viewer](http://exif.regex.info/exif.cgi) - _Comprehensive EXIF and metadata extraction from images._
+
+### [↑](#-table-of-contents) AI-Powered OSINT Tools
+
+Modern AI and machine learning tools are revolutionizing OSINT investigations by automating analysis, pattern recognition, and data correlation.
+
+- [ChatGPT](https://chat.openai.com/) - _Use AI to analyze data, generate investigation hypotheses, and summarize complex information._
+- [Pimeyes](https://pimeyes.com/) - _AI-powered facial recognition search engine to find where a face appears online._
+- [Face Recognition](https://github.com/ageitgey/face_recognition) - _Python library for facial recognition in images using deep learning._
+- [Social Analyzer](https://github.com/qeeqbox/social-analyzer) - _API, CLI & Web App for analyzing social media profiles using AI._
+- [Scoopika](https://scoopika.com/) - _AI-powered platform for automated OSINT data collection and analysis._
+- [Lampyre](https://lampyre.io/) - _Data analysis and OSINT tool with AI-powered relationship mapping and pattern recognition._
+- [Voyant Tools](https://voyant-tools.org/) - _AI-powered text analysis tool for reading and analyzing large text collections._
+- [MonkeyLearn](https://monkeylearn.com/) - _Text analysis with machine learning for sentiment analysis and keyword extraction._
 
 ### [↑](#-table-of-contents) Mobile Forensics
 
@@ -623,6 +696,26 @@ So you have your target's phone number. Use these OSINT tools to assist with you
 
 - [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga) - _PhoneInfoga is one of the most advanced tools to scan phone numbers using only free resources._
 - **PayID** - _Your target may have registered their phone number (or email address, ABN, etc.) with PayID through their bank. You can check this by passing their phone number through your own bank's PayID system - you may be able to retrieve full names or other key pieces of information._
+- [Truecaller](https://www.truecaller.com/) - _Identify unknown callers, block spam calls, and search phone numbers globally._
+- [Sync.ME](https://sync.me/) - _Reverse phone lookup to identify callers and search phone numbers._
+- [NumLookup](https://www.numlookup.com/) - _Free reverse phone lookup service for identifying phone number owners._
+- [Carrier Lookup](https://www.carrierlookup.com/) - _Identify the carrier and line type of any phone number._
+
+### [↑](#-table-of-contents) Cryptocurrency & Blockchain Investigation
+
+Investigate cryptocurrency transactions, wallet addresses, and blockchain activities for financial intelligence gathering.
+
+- [Blockchain.com Explorer](https://www.blockchain.com/explorer) - _Explore Bitcoin, Ethereum, and Bitcoin Cash blockchains with detailed transaction data._
+- [Etherscan](https://etherscan.io/) - _The leading Ethereum blockchain explorer for addresses, transactions, and smart contracts._
+- [BscScan](https://bscscan.com/) - _Binance Smart Chain explorer for tracking BSC transactions and tokens._
+- [Chainalysis](https://www.chainalysis.com/) - _Enterprise blockchain analysis platform (commercial solution)._
+- [Crystal Blockchain](https://crystalblockchain.com/) - _Blockchain analytics for compliance and investigation._
+- [Wallet Explorer](https://www.walletexplorer.com/) - _Bitcoin wallet tracker that groups addresses by wallet._
+- [BlockCypher](https://live.blockcypher.com/) - _Multi-blockchain explorer supporting Bitcoin, Ethereum, Litecoin, and more._
+- [OXT.me](https://oxt.me/) - _Bitcoin blockchain explorer and analytics platform with advanced visualization._
+- [GraphSense](https://graphsense.info/) - _Open-source cryptocurrency analytics platform._
+- [Breadcrumbs](https://www.breadcrumbs.app/) - _Blockchain investigation and analytics tool for tracking crypto transactions._
+- [Orbiter](https://github.com/s0md3v/Orbit) - _Blockchain wallet network explorer for visualizing transaction patterns._
 
 ### [↑](#-table-of-contents) Australian Credit Checks
 
