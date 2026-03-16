@@ -120,14 +120,18 @@ We would also like to thank <img src="https://buungroup.com/logo/logo.svg" width
 - [OSINT Tools](#-osint-tools)
   - [Social Media OSINT Tools](#-social-media-osint-tools)
     - [Facebook Tools](#facebook-tools)
-    - [Twitter Tools](#twitter-tools)
+    - [Twitter/X Tools](#twitterx-tools)
     - [LinkedIn Tools](#linkedin-tools)
+    - [Instagram Tools](#instagram-tools)
+    - [TikTok Tools](#tiktok-tools)
+    - [YouTube & Video Platform Tools](#youtube--video-platform-tools)
   - [Person Investigations](#-person-investigations)
   - [Online Alerts](#-online-alerts)
   - [Email Data Dumps](#-email-data-dumps)
   - [Geolocation Tools & Sites](#-geolocation-tools--sites)
   - [Automated OSINT Tools](#-automated-osint-tools)
   - [AI-Powered OSINT Tools](#-ai-powered-osint-tools)
+  - [DNS & Domain Investigation](#-dns--domain-investigation)
   - [Image Forensics](#-image-forensics)
   - [Mobile Forensics](#-mobile-forensics)
   - [Cryptocurrency & Blockchain Investigation](#-cryptocurrency--blockchain-investigation)
@@ -206,14 +210,23 @@ Google Dorking is a passive information gathering method. It uses leverages spec
 
 - [Google Hacking 101](https://webvivant.com/writing-journalism/sample-features/google-hacking-101/) - _View this to learn Google hacking and take advantage of the benefits from it for OSINT purposes._
 - [Exploit Database Google Hacking Cheat Sheet](https://www.exploit-db.com/google-hacking-database)
-  Examples would be using them in such ways:
+- [SANS Google Cheat Sheet](https://www.sans.org/posters/google-hacking-and-defense-cheat-sheet/) - _Comprehensive Google dorking cheat sheet._
+- [OSINT Framework - Google Dorks](https://osintframework.com/) - _Collection of Google dorks for OSINT._
+- [DorkSearch](https://dorksearch.com/) - _Faster Google dorking with pre-built queries._
 
+**Common Google Dork Examples:**
 * `site:.google.com` — Shows all subdomains.
 * `intext:exampleword` — search for pages on websites that contain the specific word that you are searching for.
+* `filetype:pdf site:example.com` — Find PDF files on a specific domain.
+* `intitle:"index of" site:example.com` — Find directory listings.
+* `inurl:admin site:example.com` — Find admin panels.
+* `cache:example.com` — View Google's cached version of a site.
 
 ### [↑](#-table-of-contents) Online Fake Identification
 
 So you are making burner accounts to do your OSINT on the internet and deep web. Wouldn't it be helpful for you to create a quick easy fake identity online to save to a notepad to remember your fake address, username, email, burner phone numbers? These websites will assist you in creating a fake identity in a matter of minutes to help with your investigation.
+
+**Important:** Use these tools only for legitimate OSINT investigations and research purposes. Never use fake identities for fraud or illegal activities.
 
 - [Burner Mobile Numbers](https://www.mytrashmobile.com/numbers) - _Mobile numbers to verify yourself to any service as Facebook or WhatsApp._
 - [New York Address Generator](https://www.randomlists.com/new-york-addresses) - _Use generated Addresses for your online fake identity to sign up to sites._
@@ -222,6 +235,10 @@ So you are making burner accounts to do your OSINT on the internet and deep web.
 - [Random Address Generator](https://www.fakepersongenerator.com/random-address) - _Generated addresses covering all cities and states in the United States._
 - [SpinXO Username Generator](http://www.spinxo.com/) - _Use their username generator to combine various popular keywords with your name, words that are important to you or characterize you and your personality._
 - [TempSMS](https://www.temp-sms.org) - _Receive SMS online instantly using New Zealand burner mobile numbers._
+- [Fake Name Generator](https://www.fakenamegenerator.com/) - _Generate complete fake identities with name, address, phone number, email, and more._
+- [This Person Does Not Exist](https://thispersondoesnotexist.com/) - _AI-generated fake profile pictures that don't belong to real people._
+- [Guerrilla Mail](https://www.guerrillamail.com/) - _Disposable temporary email addresses for anonymous signups._
+- [10 Minute Mail](https://10minutemail.com/) - _Temporary email address that expires after 10 minutes._
 
 ## [↑](#-table-of-contents) Information Sources
 
@@ -285,6 +302,32 @@ This list will provide you with the largest email providers to assist you in eit
 - [CrossLinked](https://github.com/m8r0wn/crosslinked) - _LinkedIn enumeration tool to extract valid employee names from organization._
 - [LinkedIn2Username](https://github.com/initstring/linkedin2username) - _Generate username lists from LinkedIn for penetration testing._
 - [PhantomBuster LinkedIn](https://phantombuster.com/automations/linkedin) - _Automate LinkedIn data extraction including profile scraping and connection export._
+
+#### Instagram Tools
+
+- [Instagram Search](https://www.instagram.com/) - _Use Instagram's native search and explore features._
+- [Picuki](https://www.picuki.com/) - _Instagram viewer and editor to browse profiles, posts, stories, tags anonymously._
+- [StoriesIG](https://storiesig.net/) - _View and download Instagram stories anonymously._
+- [InstaDP](https://www.instadp.com/) - _View and download Instagram profile pictures in full size._
+- [Instagram Location Search](https://www.instagram.com/explore/locations/) - _Search Instagram posts by location._
+- [Osintgram](https://github.com/Datalux/Osintgram) - _OSINT tool on Instagram to collect, analyze, and run reconnaissance on Instagram accounts._
+- [InstaLoader](https://github.com/instaloader/instaloader) - _Download pictures, videos, captions, and other metadata from Instagram._
+
+#### TikTok Tools
+
+- [TikTok Search](https://www.tiktok.com/search) - _Use TikTok's native search functionality._
+- [Maverick](https://github.com/waltfy/maverick) - _TikTok OSINT tool for collecting user data and analyzing accounts._
+- [TikTok Scraper](https://github.com/drawrowfly/tiktok-scraper) - _Scrape TikTok videos, users, hashtags and music without authentication._
+- [SnapTik](https://snaptik.app/) - _Download TikTok videos without watermark._
+- [TikStats](https://www.tikstats.net/) - _TikTok analytics and statistics for any profile._
+- [Exolyt](https://exolyt.com/) - _TikTok analytics platform for tracking creators and trends._
+
+#### YouTube & Video Platform Tools
+
+- [YouTube DataViewer](https://citizenevidence.amnestyusa.org/) - _Verify YouTube videos and extract metadata by Amnesty International._
+- [InVID](https://www.invid-project.eu/) - _Video verification tool for journalists to verify videos._
+- [YouTube Geofind](https://mattw.io/youtube-geofind/) - _Search for YouTube videos by location._
+- [Montage](https://mever.iti.gr/forensics/) - _Video verification tool for detecting manipulated content._
 
 ### [↑](#-table-of-contents) Australian Dating Networks
 
@@ -661,6 +704,25 @@ These programs and tools can be used for OSINT Research to try get a understandi
 
   [![alt tag](https://github.com/DFW1N/DFW1N-OSINT/blob/master/DFW1N%20Sherlock%20Example.gif)](https://github.com/sherlock-project/sherlock)
 
+### [↑](#-table-of-contents) DNS & Domain Investigation
+
+Investigate domain names, DNS records, WHOIS information, and website infrastructure for digital footprinting.
+
+- [WHOIS Lookup](https://www.whois.com/whois/) - _Find domain registration information and ownership details._
+- [DNSDumpster](https://dnsdumpster.com/) - _DNS reconnaissance and research tool for finding DNS servers and hosts._
+- [SecurityTrails](https://securitytrails.com/) - _Historical DNS data, WHOIS records, and subdomain discovery._
+- [ViewDNS.info](https://viewdns.info/) - _Collection of DNS and network tools including reverse IP lookup and DNS report._
+- [Robtex](https://www.robtex.com/) - _Research tool for gathering data about IP numbers, network, and domain names._
+- [Central Ops](https://centralops.net/co/) - _Free online network tools including domain dossier and email dossier._
+- [MXToolbox](https://mxtoolbox.com/) - _Email and DNS lookup tools for administrators and security professionals._
+- [BuiltWith](https://builtwith.com/) - _Discover what websites are built with, including frameworks, analytics, and hosting._
+- [Netcraft Site Report](https://sitereport.netcraft.com/) - _Website technology profiling and security analysis._
+- [Spyse](https://spyse.com/) - _Complete internet assets registry with subdomain finder and port scanner._
+- [crt.sh](https://crt.sh/) - _Certificate search tool for finding SSL/TLS certificates and subdomains._
+- [URLScan.io](https://urlscan.io/) - _Service to scan and analyze websites for malicious content._
+- [Shodan](https://www.shodan.io/) - _Search engine for Internet-connected devices and servers._
+- [VirusTotal](https://www.virustotal.com/) - _Analyze suspicious files and URLs to detect types of malware._
+
 ### [↑](#-table-of-contents) Image Forensics
 
 - [Deblur Image](http://smartdeblur.net/) - _Have you found a photo of what your looking for but its blurry and cant make it out use this tool to try make the image clearer for your investigation._
@@ -770,7 +832,18 @@ _There are many other VPN Services this is just a handful look around find one t
 
 ### [↑](#-table-of-contents) Dark Web Links
 
-- [Deep Web Links](https://thehiddenwiki.org)
+The dark web can be a valuable source of intelligence for investigations, but requires careful access through Tor Browser.
+
+**Safety Warning:** Always use VPN, Tor Browser, and take security precautions when accessing the dark web. Never engage in illegal activities.
+
+- [Deep Web Links](https://thehiddenwiki.org) - _Directory of dark web links (use with caution)._
+- [Ahmia](https://ahmia.fi/) - _Search engine for Tor hidden services on the dark web._
+- [DarkSearch](https://darksearch.io/) - _Dark web search engine indexing .onion sites._
+- [Tor2Web](https://tor2web.org/) - _Access .onion sites without Tor Browser (less secure)._
+- [OnionLand Search](https://onionlandsearchengine.com/) - _Dark web search engine for finding .onion services._
+- [Tor66](http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/) - _Fresh Onions search engine (requires Tor Browser)._
+- [Dark Web Monitoring Tools](https://www.echosec.net/dark-web-monitoring) - _Commercial dark web monitoring and intelligence (paid service)._
+- [OnionScan](https://github.com/s-rah/onionscan) - _Tool for investigating Dark Web sites and services._
 
 ### [↑](#-table-of-contents) Freedom Of Information
 
