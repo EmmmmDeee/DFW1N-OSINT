@@ -125,6 +125,8 @@ We would also like to thank <img src="https://buungroup.com/logo/logo.svg" width
     - [Instagram Tools](#instagram-tools)
     - [TikTok Tools](#tiktok-tools)
     - [YouTube & Video Platform Tools](#youtube--video-platform-tools)
+    - [Reddit & Forum Tools](#reddit--forum-tools)
+    - [Discord & Chat Platform Tools](#discord--chat-platform-tools)
   - [Person Investigations](#-person-investigations)
   - [Online Alerts](#-online-alerts)
   - [Email Data Dumps](#-email-data-dumps)
@@ -248,11 +250,15 @@ This list will provide you with the largest email providers to assist you in eit
 
 - [Protonmail](https://protonmail.com/) - _This Email Provider is based in Switzerland and has encryption protection used as @protonmail.com._
 - [Outlook Live](https://outlook.live.com/owa/) - _Used as @outlook.com and @hotmail.com_
+- [Gmail](https://mail.google.com/) - _Google's email service used as @gmail.com - the world's largest email provider._
 - [iCloud](https://www.icloud.com/#mail) - _Most Mac, iPad, and iPhone users have an account used as @icloud.com._
 - [Zoho Mail](https://www.zoho.com/mail/) - _Zoho Mail is part of a larger office productivity suite._
 - [GMX Mail](https://www.gmx.com/) - _One of Germany's largest internet service providers used as @gmx.com & @gmx.ch._
 - [Yahoo Mail](https://login.yahoo.com/?.src=ym&lang=&done=https%3A%2F%2Fau.mail.yahoo.com%2F) - _Yahoo! Mail had 281 million users, making it the third largest web-based email service in the world._
 - [Mailinator](https://www.mailinator.com/) - _The Mailinator Email System puts millions of inboxes right at your fingertips. It is an amazing Email Workflow Testing tool for your Software or Service, great use for throw away burn emails._
+- [Tutanota](https://tutanota.com/) - _Secure email service with end-to-end encryption based in Germany._
+- [Mail.com](https://www.mail.com/) - _Free email service with over 200 domain names to choose from._
+- [Yandex Mail](https://mail.yandex.com/) - _Russian email provider with generous storage and features._
 
 ### [↑](#-table-of-contents) Large Social Networks
 
@@ -328,6 +334,22 @@ This list will provide you with the largest email providers to assist you in eit
 - [InVID](https://www.invid-project.eu/) - _Video verification tool for journalists to verify videos._
 - [YouTube Geofind](https://mattw.io/youtube-geofind/) - _Search for YouTube videos by location._
 - [Montage](https://mever.iti.gr/forensics/) - _Video verification tool for detecting manipulated content._
+
+#### Reddit & Forum Tools
+
+- [Reddit Search](https://www.reddit.com/search/) - _Use Reddit's native search functionality._
+- [Redditmetis](https://redditmetis.com/) - _Analyze Reddit user accounts to find posting patterns and interests._
+- [Reddit User Analyzer](https://reddit-user-analyser.netlify.app/) - _Detailed analysis of Reddit user activity and behavior._
+- [Pushshift Reddit Search](https://redditsearch.io/) - _Search Reddit comments and submissions with advanced filters._
+- [Reddit Karma Stats](https://reddit-user-analyser.netlify.app/) - _Track karma, posts, and user activity over time._
+- [Camas Reddit Search](https://camas.unddit.com/) - _Advanced Reddit search including deleted comments and posts._
+
+#### Discord & Chat Platform Tools
+
+- [Discord Lookup](https://discord.id/) - _Look up Discord user IDs and information._
+- [Discord History Tracker](https://dht.chylex.com/) - _Save and archive Discord chat history for analysis._
+- [Discord.me](https://discord.me/) - _Find and search public Discord servers._
+- [Disboard](https://disboard.org/) - _Public Discord server list and search engine._
 
 ### [↑](#-table-of-contents) Australian Dating Networks
 
